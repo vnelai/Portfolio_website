@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Interface</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+    font-family: Arial, sans-serif; /* Font for the entire body */
+    display: flex; /* Center the container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+.login-container {
+    background-color: #d3d3d3; /* Light gray background for the container */
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px; /* Width of the container */
+    text-align: center; /* Center text inside the container */
+}
+
+.input-field {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+.login-button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width of the container */
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.forgot-password {
+    display: block; /* Display as block to center it below the button */
+    margin-top: 10px; /* Space above the link */
+    text-decoration: none; /* Remove underline from link */
+    color: #007BFF; /* Link color */
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>User Login</h2>
+        <input type="text" placeholder="Username" class="input-field">
+        <input type="password" placeholder="Password" class="input-field">
+        <button class="login-button">Login</button>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+    </div>
+</body>
+</html>
