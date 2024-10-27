@@ -30,6 +30,10 @@
     transition:.2s ease-in
 }
 
+.icon-button {
+    text-decoration: none; /* Removes the underline */
+}
+
 .facebook i {
     background-color:#3b5998
 }
