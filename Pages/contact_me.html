@@ -7,6 +7,30 @@
     <title>Contact Me</title>
 </head>
 <body>
+    <div>
+        <h1>Contact me</h1>
+        <h4>I’d love to hear from you! Please fill out the form below, 
+        and I’ll respond as quickly as I can.</h4>
+        <div class="contact__form-container">
+            <form action="#" class="contact__form" method="post"><input type="hidden" name="form-name" value="form 1">
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input required="" placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name">
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input required="" placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email">
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn--theme contact__btn">
+                Submit
+              </button>
+            </form>
+          </div>
+    </div>
     
 </body>
 </html>
