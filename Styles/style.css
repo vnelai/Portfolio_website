@@ -62,9 +62,14 @@
     background-color:#c13584
 }
 
-.facebook i:hover, .github i:hover, .gitlab i:hover, 
+.youtube i {
+    background-color: #FF0000; 
+    color: white;
+}
+
+.facebook i:hover, .github i:hover, 
 .google i:hover, .instagram i:hover, .linkedin i:hover, 
-.medium i:hover, .stack-overflow i:hover, .twitter i:hover {
+.medium i:hover,, .twitter i:hover {
     background-color:#000
 }
 
@@ -146,7 +151,7 @@ form {
 
 
     /* page main margin styles */
-    
+
     /* *, *::after, *::before {
         margin: 0;
         padding: 0;
