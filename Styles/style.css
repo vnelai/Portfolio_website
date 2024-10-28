@@ -3,7 +3,7 @@
 
 
 
-/* Social Media icons */
+/* Social Media Home Page Icons */
 .social-media-div {
     font-size:2em
 }
@@ -78,6 +78,52 @@
         text-align:center
     }
 } */
+
+/* About Me Technical Icons */
+.tech-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.tech-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tech-icons {
+    list-style: none;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.tech-skill-inline>i {
+    color: #868e96;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+/*  which class is .far? */
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
 
 
 /* Contact Me Styling */
