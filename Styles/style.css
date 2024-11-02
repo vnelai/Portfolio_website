@@ -43,6 +43,7 @@
 
 }
 
+
 /* Social Media Home Page Icons */
 .social-media-div {
     font-size:2em
@@ -113,11 +114,13 @@
     color:white;
     text-align: center;
     font-size: medium;
-    border-radius: 10px;
+    border-radius: 20px;
     text-transform: uppercase;
-    margin:10px 15px 20px 10px;
+    margin:40px 15px 40px 10px;
     text-decoration: none;
-    padding:10px;
+    padding:20px;
+    outline: none;
+    border: none;
 
 }
 
@@ -189,87 +192,71 @@
 
 
 /* Contact Me Styling */
-.contact__form-container {
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+/* Contact Me Header */
+#contact_me_header, #newsletter_header{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+/* Contact Form Styles */
+.contact__form_container, .newsletter_container {
+    box-shadow: rgba(100,100,111,0.2) 10px 10px 30px 0px;
     background: white;
-    padding: 4rem;
-    margin-top: 6rem;
-    max-width: 80rem;
+    padding: 50px 50px 50px 50px;
+    max-width: 50rem;
+    max-height: 50rem;
     text-align: right;
-    width: 95%;
-    border-radius: 5px;
-    margin: 5rem auto 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    margin: 80px 80px 80px 80px;
 }
 
-form {
-    display: block;
-    margin-top: 0em;
- }
-
- .contact__form-field {
-    margin-bottom: 4rem;
+ .contact__form_field, .newsletter_field {
+    margin-bottom: 50px;
 }
 
-.contact__form-label {
-    color: #666;
-    font-size: 1.4rem;
+.contact__form_label, .newsletter_label {
+    color: #667;
+    font-size: 20px;
     letter-spacing: 1px;
     font-weight: 700;
-    margin-bottom: 1rem;
     display: block;
     text-align: left;
     }
-.contact__form-input {
-    color: #333;
-    padding: 2rem;
-    width: 100%;
+    
+.contact__form_input, .newsletter_input {
+    color: #334;
+    padding: 20px;
+    width: 95%;
+    margin-top: 10px;
     border: 1px solid #ebebeb;
-    font-size: 1.6rem;
+    font-size: 20px;
     letter-spacing: 0px;
     background: #f0f0f0;
     border-radius: 5px;
     font-weight: 600;
 }
-.contact__btn {
-    width: 30%;
-    padding: 2rem 4rem;
-    font-size: 1.6rem;
-}
 
-    
-.btn--theme {
-    background: #7843E9;
+
+
+/* Contact Form Submit Button Styles */
+#contact_submit_button , #newsletter_submit_button{
+    width: 20%;
+    padding: 15px;
+    font-size: 1.5rem;
+    background: #55198b;
     color: #fff;
+    border-radius: 20px;
+    border:none;
+    /* margin-top: 50px; */
 }  
 
 
-/* Extra button styles */
-
-/* .btn {
-    background: #7843E9;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: inline-block;
-    font-weight: 700;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
-    transition: transform .3s;
-    } */
 
 
-    /* page main margin styles */
-
-    /* *, *::after, *::before {
-        margin: 0;
-        padding: 0;
-        box-sizing: inherit;
-        font-family: inherit;
-        }     */
-
-
-
- /* my_resume styling  */
+ /* my_resume Styling  */
 
 table, th, td {
     border:1px solid black; 
