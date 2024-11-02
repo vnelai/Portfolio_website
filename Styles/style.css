@@ -2,128 +2,190 @@
 @import url("https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css");
 
 
+/* home.html styling */
+
+
+/* Greetings Styling */
+
+.greetings{
+    animation: slide 6s linear 0s infinite alternate forwards;
+    position: relative;
+
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(50%); }
+
+}
+
+.wave{
+    animation: rotate 3s linear infinite alternate forwards;
+    display:inline-block;
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotate(-20deg);
+    }
+    25% {
+        transform: rotate(2.5deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    75% {
+        transform: rotate(47.5deg);
+    }
+    100% {
+        transform: rotate(70deg);
+    }
+
+}
 
 /* Social Media Home Page Icons */
 .social-media-div {
     font-size:2em
 }
 
-.icon-button {
+.sm-button {
     margin-bottom:10px
 }
 
-.icon-button i {
+.sm-button i {
     color: #fff;
-    border-radius: 2.6rem;
+    border-radius: 2.5rem;
     cursor: pointer;
-    display: inline-block;
-    font-size: 1.3rem;
-    height: 2.6rem;
+    font-size: 1.5rem;
     line-height: 2.6rem;
-    position: relative;
     text-align: center;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    width: 2.6rem;
-    margin: 0 5px 10px;
-    transition:.2s ease-in
+    width: 2.5rem;
+    margin: 10px 10px 20px;
 }
 
-.icon-button {
-    text-decoration: none; /* Removes the underline */
-}
-
-.facebook i {
-    background-color:#3b5998
-}
-
-.linkedin i {
-    background-color:#0e76a8
+.sm-button {
+    text-decoration: none; /* Removes the underline from <a> */
 }
 
 .github i {
-    background-color:#333
+    background-color:#334
+}
+
+.linkedin i {
+    background-color:#0e76a9
 }
 
 .google i {
-    background-color:#ea4335
+    background-color:#ea4336
 }
 
-.twitter i {
-    background-color:#1da1f2
-}
-
-.medium i {
-    background-color:#000
+.facebook i {
+    background-color:#3b5999
 }
 
 .instagram i {
-    background-color:#c13584
+    background-color:#c13585
+}
+
+.twitter i {
+    background-color:#1da1f3
+}
+
+.medium i {
+    background-color:#334
 }
 
 .youtube i {
-    background-color: #FF0000; 
+    background-color: #FF0001; 
     color: white;
 }
 
 .facebook i:hover, .github i:hover, 
 .google i:hover, .instagram i:hover, .linkedin i:hover, 
-.medium i:hover, .twitter i:hover {
+.medium i:hover, .twitter i:hover, .youtube i:hover{
     background-color:#000
 }
 
-/* @media (max-width: 768px) {
-    .social-media-div {
-        text-align:center
-    }
-} */
+/* Home Buttons Styling */
 
-/* About Me Technical Icons */
+.home-buttons button{
+    background-color: #55198b;
+    color:white;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin:10px 15px 20px 10px;
+    text-decoration: none;
+    padding:10px;
+
+}
+
+.home-buttons button:hover{
+    background-color:white;
+    color:#55198b;
+    cursor:pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: transform 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+
+/* About Me Styling */
+
+/* Technical Icons  */
 .tech-icons {
     padding-left: 0;
     list-style: none;
     font-size: 3rem;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0 10 10 0;
     text-align: center;
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.tech-skill-inline {
-    display: inline-block;
-    margin-right: 20px;
+.tech-icons i {
+    font-size: 40px;
+}
+
+.tech-skill{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
     margin-bottom: 20px;
 }
 
-.tech-icons {
-    list-style: none;
-    font-size: 3rem;
-    text-align: center;
+.tech-skill:hover{
+    color:#55198b;
 }
 
-.tech-skill-inline>i {
-    color: #868e96;
-}
-
-.fab, .far {
-    font-weight: 400;
-}
-
-/*  which class is .far? */
-
-.fab {
+.fa-brands{
+    font-weight: 500;
     font-family: "Font Awesome 5 Brands";
 }
 
-.fa, .fab, .fad, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+
+.fa-brands, .fas {
     display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
-    line-height: 1;
+    line-height: 1.5;
 }
+
+
+
+
+
 
 
 /* Contact Me Styling */
