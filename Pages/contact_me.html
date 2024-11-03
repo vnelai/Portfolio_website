@@ -7,32 +7,28 @@
     <title>Contact Me</title>
 </head>
 <body>
-    <div>
+    <div class="contact__form_container">
       <div id="contact_me_header">
         <h1>Contact Me</h1>
         <h4>I’d love to hear from you! Please fill out the form below, 
-        and I’ll respond as quickly as I can.</h4>
+          and I’ll respond as quickly as I can.</h4>
       </div>
-      <div class="contact__form_container">
-          <form action="#" method="post"><input type="hidden" name="contact_form" value="form 1">
-            <div class="contact__form_field">
-              <label class="contact__form_label" for="name">Name</label>
-              <input required="" placeholder="Enter Your Name" type="text" class="contact__form_input" name="name" id="name">
-            </div>
-            <div class="contact__form_field">
-              <label class="contact__form_label" for="email">Email</label>
-              <input required="" placeholder="Enter Your Email" type="email" class="contact__form_input" name="email" id="email">
-            </div>
-            <div class="contact__form_field">
-              <label class="contact__form_label" for="message">Message</label>
-              <textarea required="" cols="10" rows="10" class="contact__form_input" placeholder="Enter Your Message" name="message" id="message"></textarea>
-            </div>
-          <button type="submit" id="contact_submit_button">
-            Submit
-          </button>
-          </form>
-        </div> 
-    </div>
+      <form action="#" method="post"><input type="hidden" name="contact_form" value="form 1">
+        <div class="contact__form_field">
+          <label class="contact__form_label" for="name">Name</label>
+          <input required="" placeholder="Enter Your Name" type="text" class="contact__form_input" name="name" id="name">
+        </div>
+        <div class="contact__form_field">
+          <label class="contact__form_label" for="email">Email</label>
+          <input required="" placeholder="Enter Your Email" type="email" class="contact__form_input" name="email" id="email">
+        </div>
+        <div class="contact__form_field">
+          <label class="contact__form_label" for="message">Message</label>
+          <textarea required="" cols="10" rows="10" class="contact__form_input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+        </div>
+        <button type="submit" id="contact_submit_button">Submit</button>
+      </form>
+    </div> 
 </body>
 <footer>
   <div class="newsletter_container">

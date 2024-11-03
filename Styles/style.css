@@ -2,20 +2,45 @@
 @import url("https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css");
 
 
+/* All Pages Styling*/
+html{
+    background-color: #f9f4f5;
+}
+
+
 /* home.html styling */
 
+.home_container{
+    width: 90%; 
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+header > h4{
+    max-width: 90%; 
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+ h1 + h2{
+    font-size: 40px;
+} 
 
 /* Greetings Styling */
 
 .greetings{
     animation: slide 6s linear 0s infinite alternate forwards;
     position: relative;
+    padding: 40px;
+    font-size: 50px;
 
 }
 
 @keyframes slide {
-    from { transform: translateX(0); }
-    to { transform: translateX(50%); }
+    from { transform: translateX(-30%);}
+    to { transform: translateX(30%); }
 
 }
 
@@ -46,27 +71,39 @@
 
 /* Social Media Home Page Icons */
 .social-media-div {
-    font-size:2em
+    font-size: 1em;
+    margin-top: 30px;
+    
 }
 
-.sm-button {
-    margin-bottom:10px
-}
 
 .sm-button i {
     color: #fff;
-    border-radius: 2.5rem;
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 1.5rem;
-    line-height: 2.6rem;
-    text-align: center;
-    width: 2.5rem;
+    line-height: 3.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     margin: 10px 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: inherit;
+    transition: transform 0.2s;
 }
 
-.sm-button {
-    text-decoration: none; /* Removes the underline from <a> */
+.sm-button:hover i {
+    transform: scale(1.5); /* Make icons grow slightly on hover */
 }
+
+
+.sm-button {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 8px;
+    
+}
+
+
 
 .github i {
     background-color:#334
@@ -110,23 +147,24 @@
 /* Home Buttons Styling */
 
 .home-buttons button{
-    background-color: #55198b;
+    background-color: #5c3370;
     color:white;
     text-align: center;
-    font-size: medium;
+    font-size: x-large;
     border-radius: 20px;
     text-transform: uppercase;
-    margin:40px 15px 40px 10px;
+    margin:70px 15px 70px 10px;
     text-decoration: none;
     padding:20px;
     outline: none;
     border: none;
 
+
 }
 
 .home-buttons button:hover{
-    background-color:white;
-    color:#55198b;
+    background-color:#f9f4f5 ;
+    color:#5c3370 ;
     cursor:pointer;
     text-decoration: none;
     outline: none;
@@ -137,6 +175,12 @@
 
 
 /* About Me Styling */
+
+.about_me_container{
+    width: 90%; 
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+}
 
 /* Technical Icons  */
 .tech-icons {
@@ -168,7 +212,7 @@
 }
 
 .tech-skill:hover{
-    color:#55198b;
+    color:#5c3370;
 }
 
 .fa-brands{
@@ -186,12 +230,23 @@
 }
 
 
-
-
+/* My Resume Styling */
+.my_resume_container{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 
 
 /* Contact Me Styling */
+
+
+
+
 /* Contact Me Header */
 #contact_me_header, #newsletter_header{
     text-align: center;
@@ -200,13 +255,15 @@
     margin-bottom:50px;
 }
 
+
+
 /* Contact Form Styles */
 .contact__form_container, .newsletter_container {
     box-shadow: rgba(100,100,111,0.2) 10px 10px 30px 0px;
     background: white;
     padding: 50px 50px 50px 50px;
     max-width: 50rem;
-    max-height: 50rem;
+    max-height: 100rem;
     text-align: right;
     width: 80%;
     border-radius: 10px;
@@ -246,7 +303,7 @@
     width: 20%;
     padding: 15px;
     font-size: 1.5rem;
-    background: #55198b;
+    background: #5c3370;
     color: #fff;
     border-radius: 20px;
     border:none;
@@ -256,11 +313,4 @@
 
 
 
- /* my_resume Styling  */
 
-table, th, td {
-    border:1px solid black; 
-    border-collapse: collapse;
-    text-align: center;
-    padding:10px 30px 10px 30px;
-} 
