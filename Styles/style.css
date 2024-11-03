@@ -148,7 +148,7 @@ header > h4{
 
 .home-buttons button{
     background-color: #5c3370;
-    color:white;
+    color:#f9f4f5;
     text-align: center;
     font-size: x-large;
     border-radius: 20px;
@@ -158,8 +158,6 @@ header > h4{
     padding:20px;
     outline: none;
     border: none;
-
-
 }
 
 .home-buttons button:hover{
@@ -181,6 +179,15 @@ header > h4{
     margin: 30px 30px 30px 30px;
     text-align: center;
 }
+
+.about_me_container h1 , .about_me_container h3 {
+    color:#5c3370;
+
+}
+
+.about_me_container h3 {
+    font-size: 25px;
+}    
 
 /* Technical Icons  */
 .tech-icons {
@@ -205,8 +212,8 @@ header > h4{
 
 .tech-skill{
     display:flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     width: 100px;
     margin-bottom: 20px;
 }
@@ -230,6 +237,7 @@ header > h4{
 }
 
 
+
 /* My Resume Styling */
 .my_resume_container{
     text-align: left;
@@ -240,12 +248,49 @@ header > h4{
     margin-right: 50px;
 }
 
+.lang_dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.dropdown_button {
+    background-color: #5c3370; 
+    color: #f9f4f5; 
+    padding: 20px 30px; 
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer; 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+
+.dropdown_menu {
+    display: none;
+    position: absolute; 
+    background-color: #f9f4f5; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+.dropdown_item {
+    padding: 15px 25px;
+    color: black
+}
+
+.dropdown_item:hover {
+    background-color: #c8b8db;
+}
+
+.lang_dropdown:hover .dropdown_menu {
+    display: block;
+}
 
 
 /* Contact Me Styling */
-
-
-
 
 /* Contact Me Header */
 #contact_me_header, #newsletter_header{
@@ -306,7 +351,7 @@ header > h4{
     padding: 15px;
     font-size: 1.5rem;
     background: #5c3370;
-    color: #fff;
+    color: #f9f4f5;
     border-radius: 20px;
     border:none;
     /* margin-top: 50px; */
