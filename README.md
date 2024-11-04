@@ -24,3 +24,9 @@ Use Flexbox and/or the Bootstrap Grid.
 Use at least two CSS animations.
 
 
+Acknowledgments
+
+Resources used for content: 
+https://www.pexels.com
+https://coolors.co/palettes/trending
+
