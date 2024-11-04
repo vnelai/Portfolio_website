@@ -292,6 +292,13 @@ header > h4{
 
 /* Contact Me Styling */
 
+.contact_me_page_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 /* Contact Me Header */
 #contact_me_header, #newsletter_header{
     text-align: center;

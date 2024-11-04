@@ -1,6 +1,6 @@
 Project Overview
 
-This portfolio project displays my web development skills like HTML and CSS. While ensuring I meet the following techinical crieteria:
+This portfolio project displays my web development skills like HTML and CSS. While ensuring I meet the following technical criteria:
 
 HTML Requirements
 Have at least three pages.
